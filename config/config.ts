@@ -5,5 +5,5 @@ export interface IConfiguration {
 
 export const config: IConfiguration = {
     PORT: parseInt(process.env.PORT ?? "3002"),
-    MONGO_URI: process.env.MONGO_URI ?? "mongodb://localhost:27017/"
+    MONGO_URI: "mongodb://18.195.33.58:27017/"
 }

@@ -18,7 +18,7 @@ export class UserController {
         return this.userService.findOne(id);
     }
 
-    @Post('/')
+    @Post()
     async create(
         @Body() user: User,
     ): Promise<User> {
